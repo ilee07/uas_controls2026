@@ -1,0 +1,31 @@
+# =========================
+# STM32CubeIDE build output
+# =========================
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# Common generated build artifacts
+*.o
+*.d
+*.su
+*.cyclo
+*.map
+*.list
+*.elf
+*.hex
+*.bin
+
+# Makefile-generated helpers that appear in Debug/
+**/subdir.mk
+**/objects.mk
+**/objects.list
+**/sources.mk
+**/makefile
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
